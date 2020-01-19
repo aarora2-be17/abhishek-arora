@@ -37,6 +37,6 @@ Key : row_no :	Row number of alternatives in decision matrix.
 
 ### Examples
 
-  from topsis-abhishek import topsis
+  import topsis as tp
   
-  topsis(data,'1,1,1,1','+,+,+,+')
+  tp.topsis(data,'1,1,1,1','+,+,+,+')
